@@ -39,23 +39,38 @@ nav{
   height: 90%;   
 }
 
-/*Nabil Styling*/
+	/*Nabil Styling*/
 
-#footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 2px;
-  background: white;
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 5%;
-}
-
-#shootLogo {
-  width: 10%;
-}
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px;
+    background: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+  }
+  
+  .containerBottom {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .rightSide {
+   display: flex;
+   justify-content: flex-end; 
+  }
+  
+  li {
+    text-decoration: none; 
+  }
+  
+  #shootLogo {
+    width: 10%;
+  }
+  
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
