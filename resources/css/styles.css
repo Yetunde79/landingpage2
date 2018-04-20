@@ -19,6 +19,10 @@ nav{
   width: 60%;
 }
 
+.container{
+  display: flex;
+}
+
 .polaroid{
   width: 350px;
   height: 400px;
@@ -30,8 +34,7 @@ nav{
   background-color: white;
   -webkit-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
-  position: relative;
-  right: -6px;
+  margin-right: auto;
 }
 
 .polaroid img{
@@ -39,6 +42,13 @@ nav{
   height: 90%;   
 }
 
+#section1-p{
+  margin-left: auto;
+}
+
+.section1-h1{
+  font-size: 4.7em;
+}
 /*Nabil Styling*/
 
 #footer {
