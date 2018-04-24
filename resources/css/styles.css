@@ -41,29 +41,45 @@ nav{
 
 	/*Nabil Styling*/
 
-  #footer {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    border-top: 2px;
-    background: white;
-    padding-top: 2%;
-    padding-bottom: 5%;
-  }
-   
-  #rightSide {
-   display: flex;
-   justify-content: flex-end; 
-  }
+div > footer {
+  position: absolute;
+  height: 35%;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px;
+  background: white;
+  padding: 2% ; /*top right bottom left*/
+}
 
-  li {
-    text-decoration: none; 
-  }
+.bottom {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bottom > li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1%; /*top right bottom left*/
+  margin-right: 20%;
+}
+
+li a, li a:hover {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
   
-  #shootLogo {
-    width: 10%;
-  }
-  
+#shootLogo {
+  width: 15%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  color: #505050;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
