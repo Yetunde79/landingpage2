@@ -56,6 +56,10 @@ div > footer {
   padding: 0;
 }
 
+#info {
+  margin-left: 5px;
+}
+
 .bottom > li {
   display: flex;
   justify-content: flex-end;
@@ -80,6 +84,30 @@ li a, li a:hover {
   justify-content: center;
   color: #505050;
 }
+/*Icons*/
+a > i {
+  font-size: 150%;
+  color: black;
+  margin-right: 10px;
+  
+}
+.fa-twitter:hover {
+  color: #00aced;
+  transition: 0.5s;
+}
+
+.fa-instagram:hover {
+  color: #bc2a8d;
+  transition: 0.5s;
+}
+
+.fa-medium:hover {
+  color: #66CDAA;
+  transition: 0.5s;
+}
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
