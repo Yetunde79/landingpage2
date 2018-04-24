@@ -19,6 +19,10 @@ nav{
   width: 60%;
 }
 
+.container{
+  display: flex;
+}
+
 .polaroid{
   width: 350px;
   height: 400px;
@@ -30,8 +34,7 @@ nav{
   background-color: white;
   -webkit-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
-  position: relative;
-  right: -6px;
+  margin-right: auto;
 }
 
 .polaroid img{
@@ -105,9 +108,6 @@ a > i {
   color: #66CDAA;
   transition: 0.5s;
 }
-
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
