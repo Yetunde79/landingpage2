@@ -1,3 +1,8 @@
+/*Sets global styling*/
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
 body {
   background-color: #dedede !important;
   padding-top: 100px;
@@ -11,6 +16,8 @@ html {
   margin: 0px; 
   padding: 0px;
 }
+
+
 
 nav {
   box-shadow: 5px 5px 5px#C8C8C8;
