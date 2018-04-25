@@ -1,6 +1,7 @@
 /*Sets global styling*/
 * {
   font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 body {
@@ -33,29 +34,9 @@ nav {
 }
 
 
-.polaroid {
-  width: 350px;
-  height: 400px;
-  margin: 0;
-  border: 1px solid black;
-  padding: 10px;
-  padding-bottom: 40px;
-  box-sizing: border-box;
-  background-color: white;
-  -webkit-transform: rotate(-6deg);
-  -moz-transform: rotate(-6deg);
-  margin-right: auto;
-}
-
-.polaroid img {
-  width: 100%;
-  height: 90%;
-}
-
 /*Nabil Styling*/
 
 /*Section stylings*/
-
 /*Section 1, 3, 5*/
 
 .section1,
@@ -63,6 +44,7 @@ nav {
 .section5 {
   background: #f8f1ee;
   display: flex;
+  justify-content: center;
 }
 
 .section1 > .section1-img {
@@ -81,10 +63,13 @@ nav {
 .section6 {
   background: #F15B22;
   display: flex;
+  justify-content: center;
 }
 
 #section1-p > p {
-  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-weight: bold;
   font-style: italic;
   font-size: 200%;
@@ -95,7 +80,6 @@ nav {
 }
 
 .form > p {
-  letter-spacing: 2px;
   font-weight: bold;
   font-style: italic;
   font-size: 200%;
@@ -105,15 +89,12 @@ nav {
 }
 
 footer {
-  /*Issues with width*/
   position: relative;
   height: 35%;
   bottom: 0;
   background: white;
-  margin-top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
   border-top: none;
+  padding: 5%; /*top right bottom left*/
 }
 
 
@@ -129,8 +110,7 @@ footer {
 .bottom>li {
   display: flex;
   justify-content: flex-end;
-  padding: 1%;
-  /*top right bottom left*/
+  padding: 1%;  /*top right bottom left*/
   margin-right: 20%;
 }
 
