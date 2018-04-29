@@ -2,6 +2,9 @@
 * {
   font-family: 'Nunito Sans', sans-serif;
   letter-spacing: 1.5px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
 }
 
 body {
@@ -17,12 +20,12 @@ html {
   padding: 0px;
 }
 
-nav {
+nav{
   box-shadow: 5px 5px 5px#C8C8C8;
   background-color: white;
-}
+} 
 
-.nav-a {
+.nav-a{
   font-size: 1 em;
 }
 
@@ -31,6 +34,28 @@ nav {
 }
 
 
+.section1-img{ /*make images mobile*/
+  width: 200px;
+  height: 200px;
+}
+
+.left-img{
+  display: flex;
+  height: 410px; /*using flex-start & end without set height*/
+  align-items: center;
+}
+
+
+.first-img{
+  align-self: flex-start;
+}
+
+.second-img{
+  align-self: flex-end;
+  position: relative;
+  right: 100px;
+ 
+}
 /*Nabil Styling*/
 
 /*Section stylings*/
@@ -40,8 +65,12 @@ nav {
 .section3,
 .section5 {
   background: #f8f1ee;
+  
+}
+
+.section1{
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 #section1-p {
@@ -61,6 +90,9 @@ button {
   display: flex;
   justify-content: center;
 }
+#section1-p > h1{
+  font-size: 5em;
+}
 
 #section1-p > p {
   display: flex;
@@ -78,7 +110,7 @@ button {
 .form > p {
   font-weight: bold;
   font-style: italic;
-  font-size: 200%;
+  font-size: 300%;
   padding-top: 5%;
   padding-bottom: 5%;
   color: #000000;
