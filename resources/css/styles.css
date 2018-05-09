@@ -35,13 +35,13 @@ nav{
 
 
 .section1-img{ /*make images mobile*/
-  width: 200px;
-  height: 200px;
+  max-width: 100%;
+  height: auto;
 }
 
 .left-img{
   display: flex;
-  height: 410px; /*using flex-start & end without set height*/
+  height: 470px; /*using flex-start & end without set height*/
   align-items: center;
 }
 
