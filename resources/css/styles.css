@@ -33,29 +33,22 @@ nav{
   width: 60%;
 }
 
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-.section1-img{ /*make images mobile*/
-  max-width: 100%;
+
+.img1{
   height: auto;
 }
 
-.left-img{
-  display: flex;
-  height: 470px; /*using flex-start & end without set height*/
-  align-items: center;
+.img2{
+  height: auto;
 }
 
 
-.first-img{
-  align-self: flex-start;
-}
-
-.second-img{
-  align-self: flex-end;
-  position: relative;
-  right: 100px;
- 
-}
 /*Nabil Styling*/
 
 /*Section stylings*/
@@ -65,24 +58,12 @@ nav{
 .section3,
 .section5 {
   background: #f8f1ee;
-  
-}
-
-.section1{
-  display: flex;
-  align-items: center;
-}
-
-#section1-p {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 button {
   background: #F15B22;
-
 }
+
 .section2,
 .section4,
 .section6 {
@@ -92,6 +73,7 @@ button {
 }
 #section1-p > h1{
   font-size: 5em;
+  font-weight: bold;
 }
 
 #section1-p > p {
@@ -160,7 +142,6 @@ li a:hover {
   display: flex;
   justify-content: center;
   color: #505050;
-  margin-bottom: -80px;
 }
 
 /*Icons*/
@@ -209,15 +190,21 @@ input {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 
