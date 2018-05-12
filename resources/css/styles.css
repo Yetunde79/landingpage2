@@ -39,13 +39,18 @@ nav{
   justify-content: space-around;
 }
 
-
-.img1{
+img {
+ max-width: 100%;
   height: auto;
 }
 
+.img1{
+  padding-bottom: 5px;
+ 
+}
+
 .img2{
-  height: auto;
+  padding-left: 5%;
 }
 
 
@@ -60,8 +65,11 @@ nav{
   background: #f8f1ee;
 }
 
-button {
+.button {  /*remove gray shadow*/
   background: #F15B22;
+  border-radius: 12px;
+  width: 50%;
+  
 }
 
 .section2,
@@ -191,19 +199,48 @@ input {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-  
+  #section1-p > h1{
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  .img1{
+    padding-right: 5%;
+  }
+
+  .button {
+    width: 80%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-  
+  #section1-p > h1{
+    font-size: 2.8em;
+    font-weight: bold;
+  }
+
+  .img1{
+    padding-right: 5%;
+  }
+  .button {
+    width: 80%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-  
+  #section1-p > h1{
+    font-size: 3.6em;
+    font-weight: bold;
+  }
+
+  .button {
+    width: 50%;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
