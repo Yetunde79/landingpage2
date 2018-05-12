@@ -29,6 +29,7 @@ a:hover {
 }
 
 .tableContent {
+    position: fixed;
     display: block;
     width: 15%;
     float: left;
