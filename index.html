@@ -7,9 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="theme-color" content="#F15B22">
 
-	<!--Our stylesheet-->
-	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
-
 	<!--Favicons-->
 	<link rel="apple-touch-icon" sizes="180x180" href="resources/ico/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="resources/ico/favicon-32x32.png">
@@ -26,53 +23,57 @@
 
 	<!--Font Awesome CDN Link-->
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet"> 
 
-	<!--Google Fonts, Nunito Sans-->
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+	<!--Our stylesheet. Has to be last stylesheet so it loads after the rest-->
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 
 	<title>Shoot</title>
 </head>
 
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light">
-		<a class="navbar-brand" href="#"><img id="logo" src="resources/img/shootlogo.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button> <!--button for mobile view-->
-		
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-			<ul class="navbar-nav"> <!--list for navbar-->
-				<li class="nav-item">
-				<a class="nav-link nav-a" href="#">Home<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-				<a class="nav-link nav-a" href="../landingpage2/pages/about.html">About Us</a>
-				</li>
-		
-				<li class="nav-item dropdown"> 
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Help
-				</a>
-				<div class="dropdown-menu dropdown-menu-right nav-a" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu-->
-					<a class="dropdown-item nav-a" href="#">For Photographers</a>
-					<a class="dropdown-item nav-a" href="#">For Models</a>
-					<a class="dropdown-item nav-a" href="#">Safety</a>
+		<div class="container">
+			<a class="navbar-brand" href="#"><img id="logo" src="resources/img/shootlogo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button> <!--button for mobile view-->
+			
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav"> <!--list for navbar-->
+					<li class="nav-item">
+					<a class="nav-link nav-a" href="#">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link nav-a" href="../landingpage2/pages/about.html">About Us</a>
+					</li>
+			
+					<li class="nav-item dropdown"> 
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Help
+					</a>
+					<div class="dropdown-menu dropdown-menu-right nav-a" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu-->
+						<a class="dropdown-item nav-a" href="#">For Photographers</a>
+						<a class="dropdown-item nav-a" href="#">For Models</a>
+						<a class="dropdown-item nav-a" href="#">Safety</a>
+					</div>
+					</li>
+			
+					<li class="nav-item">
+					<a class="nav-link nav-a" href="../landingpage2/pages/presskit.html">Press Kit</a>
+					</li>
+				</ul>
 				</div>
-				</li>
-		
-				<li class="nav-item">
-				<a class="nav-link nav-a" href="../landingpage2/pages/presskit.html">Press Kit</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+			</div>
+		</nav>
 
 	<div class="container">
 			<!--grid with 3 cols-->
 		<div class="row align-items-center">
 				
 				<div class="col-4">		<!--col1-->
-						<div class="img1">
+						<div class="img1">  <!--make image edge rounder-->
 							<img src="resources/img/placeholder.png" alt="placeholder">
 						</div>
 			
@@ -219,27 +220,27 @@
 			<div class="bottom-bar col-md-6">
 				<ul class="bottom">
 					<li>
-						<a href="#">Home</a>
+						<a href="#" class="bottom_links">Home</a>
 					</li>
 
 					<li>
-						<a href="../landingpage2/pages/about.html">About Us</a>
+						<a href="../landingpage2/pages/about.html" class="bottom_links">About Us</a>
 					</li>
 
 					<li>
-						<a href="../landingpage2/pages/staff.html">The Team</a>
+						<a href="../landingpage2/pages/staff.html" class="bottom_links">The Team</a>
 					</li>
 
 					<li>
-						<a href="../landingpage2/pages/privacy.html">Privacy Policy</a>
+						<a href="../landingpage2/pages/privacy.html" class="bottom_links">Privacy Policy</a>
 					</li>
 
 					<li>
-						<a href="../landingpage2/pages/termsOfServices.html">Terms</a>
+						<a href="../landingpage2/pages/termsOfServices.html" class="bottom_links">Terms</a>
 					</li>
 
 					<li>
-						<a href="#">Press Kit</a>
+						<a href="#" class="bottom_links">Press Kit</a>
 					</li>
 
 				</ul>
@@ -248,7 +249,7 @@
 				<p>&copy Shoot Technology, Inc 2018</p>
 			</div>
 		</footer>
-	</div> 
+	</div>  
 
 
 	<!--Scripts-->
