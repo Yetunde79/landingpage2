@@ -33,6 +33,10 @@ nav{
   width: 60%;
 } 
 
+.padding{
+  padding-left: 5%;
+}
+
 .container1{
   display: flex;
   flex-wrap: wrap;
@@ -40,13 +44,15 @@ nav{
 }
 
 img {
-   max-width: 100%;
+  max-width: 100%;
   height: auto;
+  border-radius: 5%;
+  
 }
 
 .img1{
   padding-bottom: 5px;
- 
+  
 }
 
 .img2{
@@ -67,9 +73,13 @@ img {
 
 .button {  /*remove gray shadow*/
   background: #F15B22;
+  border: none;
   border-radius: 12px;
   width: 50%;
-  
+  margin-left: 5%;
+  color: white;
+  font-size: 0.8em;
+  padding: 2%;
 }
 
 .section2,
@@ -115,7 +125,6 @@ footer {
   padding: 5%; /*top right bottom left*/
 }
 
-
 .bottom {
   list-style-type: none;
   padding: 0;
@@ -138,7 +147,6 @@ footer {
   padding: 0;
   margin: 0;
 }
-
 
 #shootLogo {
   width: 15%;
@@ -196,11 +204,12 @@ input {
   background: white;
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
   #section1-p > h1{
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: bold;
   }
 
@@ -209,7 +218,9 @@ input {
   }
 
   .button {
-    width: 100%;
+    width: 90%;
+    padding: none;
+    font-size: 0.6em;
   }
 }
 
@@ -224,8 +235,11 @@ input {
   .img1{
     padding-right: 5%;
   }
+
   .button {
     width: 80%;
+    font-size: 0.7em;
+ 
   }
 }
 
@@ -238,15 +252,35 @@ input {
   }
 
   .button {
-    width: 50%;
+    width: 80%; 
+    padding: none; 
+    font-size: 0.8em;
   }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  #section1-p > h1{
+    font-size: 3.6em;
+    font-weight: bold;
+  }
+
+  .button {
+    width: 50%;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  #section1-p > h1{
+    font-size: 3.6em;
+    font-weight: bold;
+  }
+
+  .button {
+    width: 50%;
+  }
+}
