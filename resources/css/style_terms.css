@@ -28,13 +28,28 @@ a:hover {
     text-decoration: none;
 }
 
+/*Nav Bar Style*/
+nav{
+    box-shadow: 5px 5px 5px#C8C8C8;
+    background-color: white;
+  } 
+  
+  .nav-a{
+    font-size: 1 em;
+  }
+  
+  #logo {
+    width: 60%;
+  } 
+/*Nav Bar Style*/
+
 .tableContent {
     position: fixed;
     display: block;
     width: 15%;
     float: left;
     padding: 2%;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .textArea {
