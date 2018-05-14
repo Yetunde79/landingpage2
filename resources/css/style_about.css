@@ -17,3 +17,20 @@ html {
     margin: 0px;
     padding: 0px;
 }
+
+/*Nav Bar Style*/
+
+nav {
+    box-shadow: 5px 5px 5px#C8C8C8;
+    background-color: white;
+}
+
+.nav-a {
+    font-size: 1 em;
+}
+
+#logo {
+    width: 60%;
+}
+
+/*Nav Bar Style*/
