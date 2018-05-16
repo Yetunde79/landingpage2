@@ -34,3 +34,19 @@ nav {
 }
 
 /*Nav Bar Style*/
+
+/*You Section Slideshow*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: black;
+}
+
+.youSection {
+    display: flex;
+    justify-content: center;
+}
+
+/*Photographer Section Slideshow*/
+
+/*Model Section Slideshow*/
