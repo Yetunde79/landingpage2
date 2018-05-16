@@ -35,18 +35,95 @@ nav {
 
 /*Nav Bar Style*/
 
-/*You Section Slideshow*/
+/*Styling for Flickity*/
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.gallery {
+    /**/
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.gallery-cell {
+    width: 100%;
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+}
+
+/* big buttons, no circle */
+
+.flickity-prev-next-button {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+}
+
+/* arrow color */
+
+.flickity-prev-next-button .arrow {
+    fill: black;
+}
+
+.flickity-prev-next-button.no-svg {
     color: black;
 }
 
-.youSection {
-    display: flex;
-    justify-content: center;
+.flickity-prev-next-button:hover {
+    background: transparent;
 }
 
-/*Photographer Section Slideshow*/
+/* hide disabled button */
 
-/*Model Section Slideshow*/
+.flickity-prev-next-button:disabled {
+    display: none;
+}
+
+/* position dots in gallery */
+
+.flickity-page-dots {
+    bottom: 0px;
+}
+
+/* white circles */
+
+.flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    background: black;
+    margin-bottom: 15px;
+}
+
+/* fill-in selected dot */
+
+.flickity-page-dots .dot.is-selected {
+    background: white;
+}
+
+/*Styling for elements inside Flickity slides*/
+.topImg {
+    padding: 10px;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+}
+
+figcaption > a:hover {
+    text-decoration: none;
+}
+
+.gallery-cell > p {
+    margin-top: 20px;
+    font-size: 150%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}

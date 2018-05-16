@@ -18,6 +18,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	    crossorigin="anonymous">
 
+	<!-- Flickity CSS CDN -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 	<!--Our Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="../resources/css/style_about.css">
 
@@ -78,107 +81,53 @@
 	</nav>
 
 	<!--You Section-->
-	<div class="container">
-		<div id="demo1" class="carousel slide" data-ride="carousel">
-			<!-- The slideshow -->
-			<div class="container carousel-inner">
-				<div class="carousel-item active">
-					<div class="container youSection">
-						<h1>Hiiiiiiiii</h1>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="container youSection">
-						<h1>Hiooooooo</h1>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="container youSection">
-						<h1>Hiaaaaaaaa</h1>
-					</div>
-				</div>
-			</div>
-
-			<!-- Left and right controls -->
-			<a class="carousel-control-prev" href="#demo1" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#demo1" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
-		</div>
-	</div>
 
 	<!--Photographer Section-->
-	<div>
-		<div class="container">
-			<div id="demo2" class="carousel slide" data-ride="carousel">
-				<!-- The slideshow -->
-				<div class="container carousel-inner">
-					<div class="carousel-item active">
-						<div class="container youSection">
-							<h1>Hiiiiiiiii</h1>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="container youSection">
-							<h1>Hiooooooo</h1>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="container youSection">
-							<h1>Hiaaaaaaaa</h1>
-						</div>
-					</div>
-				</div>
-
-				<!-- Left and right controls -->
-				<a class="carousel-control-prev" href="#demo2" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-				<a class="carousel-control-next" href="#demo2" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
-			</div>
-		</div>
-
-	</div>
 
 	<!--Models Section-->
-	<div>
-		<div class="container">
-			<div id="demo3" class="carousel slide" data-ride="carousel">
-				<!-- The slideshow -->
-				<div class="container carousel-inner">
-					<div class="carousel-item active">
-						<div class="container youSection">
-							<h1>Hiiiiiiiii</h1>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="container youSection">
-							<h1>Hiooooooo</h1>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="container youSection">
-							<h1>Hiaaaaaaaa</h1>
-						</div>
-					</div>
-				</div>
+	<div class="container">
+		<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+			<div class="container gallery-cell ">
+				<figure>
+					<img class="topImg" src="../resources/img/place1.png" alt="Girl">
+					<figcaption>Nicole Aimi (
+						<a href="https://www.instagram.com/nicoleaimi/">@nicoleaimi</a>) </figcaption>
+				</figure>
 
-				<!-- Left and right controls -->
-				<a class="carousel-control-prev" href="#demo3" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-				<a class="carousel-control-next" href="#demo3" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
 			</div>
-		</div>
+			<div class=" container gallery-cell">
+				<figure>
+					<img class="topImg" src="../resources/img/place.png" alt="Girl">
+					<figcaption>Nicole Aimi (
+						<a href="https://www.instagram.com/nicoleaimi/">@nicoleaimi</a>) </figcaption>
+				</figure>
 
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+			</div>
+			<div class=" container gallery-cell">
+				<figure>
+					<img class="topImg" src="../resources/img/place2.png" alt="Girl">
+					<figcaption>Nicole Aimi (
+						<a href="https://www.instagram.com/nicoleaimi/">@nicoleaimi</a>) </figcaption>
+				</figure>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+			</div>
+
+		</div>
 	</div>
 
+	<!-- Flickity JavaScript CDN -->
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
