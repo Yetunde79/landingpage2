@@ -17,6 +17,9 @@
 	<meta name="theme-color" content="#ffffff">
 	<!--End of Favicons-->
 
+	<!--Flickity CSS-->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	    crossorigin="anonymous">
@@ -69,27 +72,22 @@
 			</div>
 		</nav>
 
-	<div class="container">
+	<div class="container-fluid">
 			<!--grid with 3 cols-->
-		<div class="row align-items-center">
+		<div class="row justify-content-center">
 				
-			<div class="col-4">							<!--col3-->
-					
-		</div>
+			<div class="col-4"></div>							<!--col1-->		
+			
 
-				<div class="col-4 padding">								<!--col2-->
+			<div class="col-4 text-center">								<!--col2-->
 					<div id="section1-p">
-						<h1>MEET.<br> BOOK.<br> SHOOT<br></h1>  <!--make text more centered-->
+						<h1>MEET.<br> BOOK.<br> SHOOT<br></h1> 
 					</div> 	
 
-				
-
 					<button class="btn button">LEARN MORE</button>
-				</div>
+			</div>
 
-				<div class="col-4">							<!--col3-->
-					
-				</div> 
+			<div class="col-4 "></div> <!--col3-->	
 
 		    </div>
 	</div>	
@@ -137,9 +135,14 @@
 
 	<!--We will be adding a quote slider
 	Quotes will be centered -->
-	<div class="section5 container-fluid">
-		<h1 class="text-center section1-h1">Quote Slider</h1>
-	</div>
+<div class="section5 js-flickity" data-flickity-options='{ "wrapAround": true }'>
+	<div class="gallery-cell"><p> Magni nobis iste possimus perspiciatis, quisquam fuga nam excepturi officia architecto, earum illum aspernatur !</p></div>
+	<div class="gallery-cell"><p> Modi ut laudantium id voluptates rerum nam voluptas commodi, tempore eos? Deleniti distinctio alias sapiente.</p></div>
+	<div class="gallery-cell"><p> Aut ut, quae dolores libero ex at iste, quia soluta eum rem cum optio praesentium esse facere labore natus .</p></div>
+	<div class="gallery-cell"><p> Iure, natus expedita non, accusamus repudiandae corporis culpa amet quam dolores enim illum praesentium modi!</p></div>
+	<div class="gallery-cell"><p> Fuga maxime distinctio, corrupti dolor ex facilis at necessitatibus, repudiandae consequatur dolores quasi neque dicta?</p></div>
+</div>
+
 
 	<div class="section6 container-fluid">
 
@@ -163,13 +166,16 @@
 
 			<div class="info col-4">
 				<img id="shootLogo" src="resources/img/logo-black.png" alt="Shoot Logo">
-				<p>
+				
+				<p class="footer-p">
 					4750 Calhoun Road, Melcher Hall,
 					<br>Room 322, Houston, TX, 77204.
 				</p>
-				<p>
+
+				<p class="footer-p">
 					<a href="mailto:news@shootbeta.com">news@shootbeta.com</a>
 				</p>
+
 				<div class="font-awesome">
 					<a href="https://www.instagram.com/shootbeta/">
 						<i class="fab fa-instagram"></i>
@@ -181,13 +187,14 @@
 						<i class="fab fa-medium"></i>
 					</a>
 				</div>
+
 			</div>
 
-			<div class="col-4" id="copyright">
+			<div class="col-4 footer-p" id="copyright">
 				<div><span>&copy Shoot Technology, Inc 2018</span></div>
 			</div>
 
-			<div class="bottom-bar col-4">
+			<div class="bottom-bar col-4 footer-p">
 					<ul class="bottom">
 					<li>
 						<a href="#" class="bottom_links">Home</a>
@@ -231,7 +238,9 @@
 	    crossorigin="anonymous"></script>
 	<!--bootstrap script-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	    crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script>
+	<!--flickity js script-->
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
 </body>

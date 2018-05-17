@@ -71,8 +71,10 @@ img {
 
 .section1,
 .section3,
-.section5 {
+ {
   background: #f8f1ee;
+  display: flex;
+  justify-content: center;
 }
 
 .button {  /*remove gray shadow*/
@@ -93,18 +95,18 @@ img {
   display: flex;
   justify-content: center;
 }
+
 #section1-p > h1{
   font-size: 5em;
   font-weight: bold;
 }
 
 #section1-p > p {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  font-weight: bold;
+  font-weight: 800;
   font-style: italic;
   font-size: 200%;
+  color: #000000;
   padding-top: 10%;
   padding-bottom: 10%; 
   margin-left: 10%;
@@ -120,6 +122,63 @@ img {
   color: #000000;
 }
 
+/*Quote slider*/
+
+.gallery-cell {
+  width: 100%;
+  height: 200px;
+ /* background: #f8f1ee;*/
+  counter-increment: gallery-cell;
+  text-align: center;
+  padding-top: 7%;
+}
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+}
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+/* position dots in gallery */
+.flickity-page-dots {
+  bottom: 0px;
+}
+
+/* white circles */
+.flickity-page-dots .dot {
+  width: 5px;
+  height: 5px;
+  opacity: 1;
+  background: black;
+  margin-bottom: 5px;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+/*end of quote slider*/
+
 footer {
   position: relative;
   height: 35%;
@@ -127,6 +186,10 @@ footer {
   background: white;
   border-top: none;
   padding: 5% 5% 0 5%; /*top right bottom left*/
+}
+
+.footer-p{
+  font-size: 1em;
 }
 
 .row{
@@ -238,6 +301,10 @@ input {
     padding: none;
     font-size: 0.6em;
   }
+
+  .footer-p{
+    font-size: 0.57em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -257,6 +324,11 @@ input {
     font-size: 0.7em;
  
   }
+
+  .footer-p{
+    font-size: 0.8em;
+  }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -273,6 +345,10 @@ input {
     font-size: 0.8em;
   }
 
+  .footer-p{
+    font-size: 0.83em;
+  }
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -286,6 +362,10 @@ input {
   .button {
     width: 50%;
   }
+
+  .footer-p{
+    font-size: 0.9em;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -298,5 +378,9 @@ input {
 
   .button {
     width: 50%;
+  }
+
+  .footer-p{
+    font-size: 1em;
   }
 }
