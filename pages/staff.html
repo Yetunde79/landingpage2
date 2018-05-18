@@ -1,9 +1,10 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Favicons-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--Favicons-->
 	<link rel="apple-touch-icon" sizes="180x180" href="../resources/ico/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="../resources/ico/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="../resources/ico/favicon-16x16.png">
@@ -26,10 +27,114 @@
 	<!--Our Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="../resources/css/style_staff.css">
 
-    <title>The Team</title>
-    
+	<title>The Team</title>
+
 </head>
+
 <body>
-    
+
+	<!--Navigation Bar. Constant-->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img id="logo" src="../resources/img/shootlogo.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+			    aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--button for mobile view-->
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<!--list for navbar-->
+					<li class="nav-item">
+						<a class="nav-link nav-a" href="../index.html">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-a" href="../pages/about.html">About Us</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Help
+						</a>
+						<div class="dropdown-menu dropdown-menu-right nav-a" aria-labelledby="navbarDropdownMenuLink">
+							<!--dropdown menu-->
+							<a class="dropdown-item nav-a" href="#">For Photographers</a>
+							<a class="dropdown-item nav-a" href="#">For Models</a>
+							<a class="dropdown-item nav-a" href="#">Safety</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link nav-a" href="../pages/presskit.html">Press Kit</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!--Heading-->
+	<div class="container">
+		<h1>The Shooters</h1>
+		<h5>"Shooters Shoot"</h5>
+	</div>
+
+	<!--Group Photo-->
+	<div class="container">
+		<img src="../resources/img/placeholder.png" alt="GroupPhoto">
+	</div>
+
+	<div class="container">
+		<div class="row individual">
+			<!--First Row-->
+			<div class="col" id="profile">
+				<img src="../resources/img/placeholder.png" alt="GroupPhoto">
+				<p>Simbai Mutandiro</p>
+			</div>
+			<div class="col" id="profile">
+				<img src="../resources/img/placeholder.png" alt="GroupPhoto">
+				<p>Md Nabil Ahsan</p>
+			</div>
+			<div class="col" id="profile">
+				<img src="../resources/img/placeholder.png" alt="GroupPhoto">
+				<p>Anthony Leija</p>
+			</div>
+
+		</div>
+		<!--Second Row-->
+		<div class="row individual">
+			<div class="col" id="profile">
+				<img src="../resources/img/placeholder.png" alt="GroupPhoto">
+				<p>Nicole</p>
+			</div>
+			<div class="col" id="profile">
+				<img src="../resources/img/placeholder.png" alt="GroupPhoto">
+				<p>Yetunde</p>
+			</div>
+		</div>
+	</div>
+
+	<!--A word about the team-->
+	<div class="container">
+		<p class="teamP">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+			irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+		</p>
+	</div>
+
+	<!--Bottom Bar-->
+	<div>
+
+	</div>
+
+
+
 </body>
+
 </html>
