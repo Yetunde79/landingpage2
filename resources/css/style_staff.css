@@ -33,3 +33,32 @@ nav{
   } 
 /*Nav Bar Style*/
 
+#group > img {
+    width: 100%;
+    box-shadow: 5px 5px 5px#C8C8C8;
+} 
+
+#first > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#simbai > img {
+    height: 60%;
+    width: auto;
+}
+
+div > h1, h5 {
+    text-align: center;
+    font-weight: bold;
+}
+.teamP {
+    display: block;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 5%;
+    
+}
