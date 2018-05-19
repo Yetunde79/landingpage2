@@ -185,12 +185,15 @@ footer {
   bottom: 0;
   background: white;
   border-top: none;
-  padding: 5% 5% 0 5%; /*top right bottom left*/
+  padding: 5% 0 0 5%; /*top right bottom left*/
 }
 
 .footer-p{
   font-size: 1em;
-  padding-right: 5%;
+}
+
+.footer-link{
+  color: black;
 }
 
 .row{
@@ -204,16 +207,18 @@ footer {
 .bottom {
   list-style-type: none;
   padding-left: 0;
-  margin-left: 0;
-  text-align: right;
-  padding-bottom: 5%;
-  /*move to right*/
-
+  margin-left: 0; 
 }
 
 .bottom>li {
-  padding: 1%;  /*top right bottom left*/
-  margin-right: 20%;
+  margin: 0 0 3px 0;
+}
+
+.bottom-bar{
+  position: absolute;
+  right: 0;
+  text-align: right;
+ /* padding-right: 0;*/
 }
 
 .bottom_links, .bottom_links:hover{
