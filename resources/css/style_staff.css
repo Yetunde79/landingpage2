@@ -33,36 +33,3 @@ nav{
   } 
 /*Nav Bar Style*/
 
-
-div > h1,h5 {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
-
-div > img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 40%;
-}
-
-.individual {
-    margin-top: 2%;
-    display: flex;
-    justify-content: center;
-}
-
-#profile > img {
-    width: 80%;
-    height: 30%;
-}
-
-.teamP {
-    font-size: 150%;
-    font-weight: bold;
-    font-style: italic;
-    color: #F15B22;
-    display: block;
-    text-align: center;
-}
