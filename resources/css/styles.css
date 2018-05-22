@@ -29,6 +29,9 @@ nav{
   font-size: 1 em;
 }
 
+#navbars{
+  padding-left: 15px;
+}
 #logo {
   width: 60%;
 } 
@@ -127,16 +130,15 @@ img {
 .gallery-cell {
   width: 100%;
   height: 200px;
- /* background: #f8f1ee;*/
   counter-increment: gallery-cell;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 
 /* big buttons, no circle */
 .flickity-prev-next-button {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: transparent;
 }
 
@@ -185,7 +187,8 @@ footer {
   bottom: 0;
   background: white;
   border-top: none;
-  padding: 5% 0 0 5%; /*top right bottom left*/
+  padding-top: 5%; /*top right bottom left*/
+  padding-left: 1rem;
 }
 
 .footer-p{
@@ -211,7 +214,7 @@ footer {
 }
 
 .bottom>li {
-  margin: 0 0 3px 0;
+  margin: 0 0 15px 0;
 }
 
 .bottom-bar{
@@ -309,6 +312,10 @@ input {
     font-size: 0.6em;
   }
 
+  .gallery-cell {
+    padding-top: 3%;
+  }
+
   .footer-p{
     font-size: 0.57em;
   }
@@ -335,7 +342,12 @@ input {
   .footer-p{
     font-size: 0.8em;
   }
-  
+
+  #shootLogo {
+    width: 23%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -356,6 +368,11 @@ input {
     font-size: 0.83em;
   }
   
+  #shootLogo {
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -373,6 +390,12 @@ input {
   .footer-p{
     font-size: 0.9em;
   }
+
+  #shootLogo {
+    width: 15%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -389,5 +412,11 @@ input {
 
   .footer-p{
     font-size: 1em;
+  }
+
+  #shootLogo {
+    width: 15%;
+    margin-top: 1%;
+    margin-bottom: 5%;
   }
 }
