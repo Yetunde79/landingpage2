@@ -3,35 +3,41 @@
 * {
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 1.5px;
-}
-
-body {
-    background-color: #f8f1ee !important;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+  
+  body {
     padding-top: 100px;
+    background-color: #f8f1ee;
     margin: 0;
     width: 100%;
-}
-
-html {
-    height: 100%;
-    margin: 0px;
+   
+  }
+  
+  html {
+    height: 100%; 
+    margin: 0px; 
     padding: 0px;
-}
-
+  }
 /*Nav Bar Style*/
 
-nav {
+  nav{
     box-shadow: 5px 5px 5px#C8C8C8;
     background-color: white;
-}
-
-.nav-a {
+  } 
+  
+  .nav-a{
     font-size: 1 em;
-}
-
-#logo {
+  }
+  
+  #navbars{
+    padding-left: 15px;
+  }
+  #logo {
     width: 60%;
-}
+  } 
 
 /*Nav Bar Style*/
 
@@ -131,3 +137,98 @@ figcaption > a:hover {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+/*footer css*/
+footer {
+    position: relative;
+    bottom: 0;
+    background: white;
+    border-top: none;
+    padding-top: 5%; /*top right bottom left*/
+    padding-left: 1rem;
+  }
+  
+  .footer-p{
+    font-size: 1em;
+  }
+  
+  .footer-link{
+    color: black;
+  }
+  
+  .row{
+    margin-right: 0;
+  }
+  
+  #info {
+    margin-left: 5px;
+  }
+  
+  .bottom {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0; 
+  }
+  
+  .bottom>li {
+    margin: 0 0 15px 0;
+  }
+  
+  .bottom-bar{
+    position: absolute;
+    right: 0;
+    text-align: right;
+   /* padding-right: 0;*/
+  }
+  
+  .bottom_links, .bottom_links:hover{
+    color: black;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #shootLogo {
+    width: 15%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  
+  #copyright {
+    color: #505050;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #copyright span{
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+  }
+ 
+
+  /*Icons*/
+
+  a>i {
+    font-size: 150%;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .fa-twitter:hover {
+    color: #00aced;
+    transition: 0.5s;
+  }
+  
+  .fa-instagram:hover {
+    color: #bc2a8d;
+    transition: 0.5s;
+  }
+  
+  .fa-medium:hover {
+    color: #66CDAA;
+    transition: 0.5s;
+  }
+ /*end of icon css*/  
+  /*end of footer css*/
